@@ -1,0 +1,26 @@
+.about-us {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1 {
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-us h2 {
+  color: #2e7d32;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
