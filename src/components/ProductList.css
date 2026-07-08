@@ -1,0 +1,92 @@
+.product-list {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-list h1 {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.category-section {
+  margin: 40px 0;
+}
+
+.category-section h2 {
+  color: #1b5e20;
+  border-bottom: 3px solid #4caf50;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.plant-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.plant-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.plant-card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.plant-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.plant-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 8px 0;
+}
+
+.btn-add-cart {
+  padding: 8px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add-cart:hover:not(:disabled) {
+  background-color: #2e7d32;
+}
+
+.btn-add-cart:disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
